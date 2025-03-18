@@ -1,7 +1,12 @@
+import Game from "../../components/Game"
+import GameRules from "../../components/GameRules"
+
 const GamePage = () => {
     return(
         <>
-        le jeu sera ici
+            <h2>Jeu du Yams</h2>
+            <GameRules />
+            <Game />
         </>
     )
 }

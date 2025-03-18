@@ -1,0 +1,24 @@
+.test>div{
+
+    border: 0.1rem solid;
+    border-radius: 25%;
+    height: 250px ;
+    width: 250px ;
+    
+}
+.test{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top:5%;
+}
+
+.button{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    
+}

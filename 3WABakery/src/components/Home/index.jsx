@@ -5,7 +5,6 @@ const Home = () => {
     
     const {data:pastries, isLoading, isError, isSuccess, error} = useGetGamePastriesQuery()
     const img = 'https://placehold.co/300x150'
-    console.log(pastries)
     
     if(isLoading){
         return(
