@@ -14,6 +14,9 @@ const NavBar = () => {
                     <Link to="/game">Game</Link>
                 </div>
                 <div>
+                    <Link to="/login">login</Link>
+                </div>              
+                <div>
                     
                 </div>
             </div>
