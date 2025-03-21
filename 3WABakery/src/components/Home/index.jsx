@@ -29,7 +29,7 @@ const Home = () => {
         return(
             <>
             <h3>Jouer pour gagner des recompenses</h3>
-            <button>Jouer</button>
+            <button onClick={null}>Jouer</button>
             <h3>Lots Restant</h3>
             <div className="tableLot">{listPrize}</div>
             </>
